@@ -1,0 +1,39 @@
+Estrutura básica do HTML
+
+O arquivo HTML(Hypertext Markup Language) é a estrutura base de uma página de internet. O HTML usa tags para marcar texto, imagem e outros conteúdos para exibição em um navegador da Web
+
+Ferramentas utilizadas para criar HTML
+
+Utilizamos um editor de código de texto, com funções avançadas voltadas para programação da Web. Uma ferramenta muito utilizada para esse fim é o Visual Studio Code, criado pela Microsoft. É um poderoso editor de códigos de texto onde é possível, através de plugins, ampliar suas funcionalidades para tarefas mais específicas, contendo um terminal integrado, versionamento de controle de código, análise de resultados, visualizar históricos dos arquivos, modificar o tema padrão, e muito mais. Tudo isso é acompanhado de um agente de IA integrado capaz de prever e dar sugestões ao seu código com o intuito de aumentar a sua produtividade para que o programador possa focar naquilo que importa. (https://code.visualstudio.com/)
+
+Um navegador de internet também é uma ferramenta utilizada para a visualização do arquivo HTML da página que está sendo construida. O navegador conta com uma ferramenta chamada de Inspetor de Elementos, que permite visualizar o código-fonte da página web e suas propriedades, bem como verificar quais elementos gráficos estão sendo utilizados. Alguns dos navegadores de internet mais conhecidos são o Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera, entre outros.
+
+
+Estrutura básica do código HTML
+
+
+Toda página principal do arquivo html tem como nome index.html. Esse nome é o padrão mais utilizado na programação de uma página de internet.
+
+O HTML é formado por tags, que são indicações de qual tipo de elemento de determinada linha do arquivo. Essas tags começam com o sinal de "<" (tag de abertura) e são fechadas por "/>"(tag de fechamento).
+
+Começamos o arquivo index.html com a tag "html" e dentro dessa tag, separamos em duas seções: tag "head" e tag "body". Na tag "head" é colocada tudo aquilo que será carregada antes da pagina web aparecer para o usuário. Na tag "body", todos os elementos que constam nessa parte do arquivo aparecerá para o usuário no navegador.
+
+Algumas tags não necessitam de fechamento, bastando apenas a tag de abertura, como por exemplo a tag "input", "img", etc.  As tags tambem podem ter atributos, que são propriedade que uma tag podem ter, por exemplo, o atributo 'id' que é um nome específico que pode ser usada para identificar o elemento.
+
+Textos
+
+As tags principais de texto são as 'h', que vão de "h1" (conteúdo de maior importância) até o "h6"(conteúdo de menor importância). Quanto menor o número que acompanha o 'h', maior a importância do texto, onde "h1" é utilizada para o título principal da página, enquanto as outras numerações são para subtítulos e abaixo. Já as tags 'p' são utilizadas para escrever um parágrafo da página da web. 
+
+Algumas outras tags também são muito utilizadas, principalmente quando é necessário dar ênfases em alguns pontos do texto. Podemos citar como exemplo as tags: "strong" que deixam o texto em negrito, "blockquote" para fazer uma citação, "u" para sublinhar o texto, "i" que deixam o texto em itálico, "mark" para marcar um texto, entre outras....
+
+
+Listas
+
+Em HTML, as listas são divididas em duas categorias: as ordenadas e as não ordenadas. Na lista ordenada, cada item recebe um número, que começa em 1. Já na lista não ordenada, os itens são listados sem qualquer numeração, apenas com um marcador, que por padrão é um pequeno círculo preto ou marcadores, no lado esquerdo do texto . As listas também são usadas para fazer um menu de navegação da página web.
+
+A tag para lista ordenada é "ol" (ordered list), enquanto para as listas não ordenadas é "ul"(unordered list). Todo item dessa lista deve estar entre a tag "li" (list item) para que possa ser visualizado pelo usuário
+
+Link
+
+Links são conexões entre paginas da web. A tag que utilizamos para fazer link é "a" (anchor), tendo como atributo 'href' para indicar o endereço para qual o link ou site a tag está apontando. Outro atributo utilizado é 'target' que altera o comportamento ao clicar no link, sendo self o padrão onde o link abre na mesma aba do navegador, enquanto blank abre em uma nova aba do navegador. Já o atributo 'title' coloca uma descrição que aparece ao colocar o ponteiro do mouse no link. Também é possível conectar através do link as páginas do próprio arquivo html, bastando apenas colocar o endereço do arquivo na pasta do projeto no  atributo 'href'. 
+
